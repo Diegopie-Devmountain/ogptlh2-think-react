@@ -30,6 +30,17 @@
 
 .App-Glider-Container {
   padding: 0 4rem;
+  margin-top: 1.5rem;
+}
+
+.App-Glider-Container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-Glider-Container h3 {
+  font-weight: bolder;
+  font-size: 1.2rem;
 }
 
 .App-Glider-Container .glider-track {
@@ -48,7 +59,7 @@
 }
 
 .App-Card-Wrapper:hover  {
-  background-color: rgb(148, 114, 66);
+  background-color: rgb(239, 210, 169);
   filter: drop-shadow(7.5px 6px 7.5px #0c0c0c);
 }
 
@@ -64,18 +75,18 @@
 }
 
 .App-Card-Body h4 {
+  margin-top: 0.4rem;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.App-Card-Body input {
+  width: 100%;
 }
 
 .App-Card-Body p {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-}
-
-.App-Icons {
-  background-color: transparent;
-  border: none;
 }
 
 .App-Icons:nth-of-type(1) {
